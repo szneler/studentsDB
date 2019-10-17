@@ -5,6 +5,8 @@
 
 #include<string>
 #include<vector>
+#include<algorithm>
+#include<iostream>
 
 class StudentManager
 {
@@ -14,7 +16,8 @@ class StudentManager
     public:
         void addStudent(unsigned int, std::string, std::string);
         void sortStudentsByID();
-        void ereaseStudentByID();
+        void eraseStudentByID(unsigned int);
+        void printStudents();
 };
 
 #endif
