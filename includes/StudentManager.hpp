@@ -14,6 +14,8 @@ class StudentManager
         std:: vector<Student> students;
 
     public:
+        StudentManager();
+        ~StudentManager();
         void addStudent(unsigned int, std::string, std::string);
         void sortStudentsByID();
         void eraseStudentByID(unsigned int);

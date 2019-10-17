@@ -6,4 +6,4 @@ Student::Student()
 Student::Student(unsigned int newIndexNo, std::string newFirstName, std::string newLastName)
     : indexNo(newIndexNo), firstName(newFirstName), lastName(newLastName){}
 
-Student::~Student(){};
+Student::~Student(){}

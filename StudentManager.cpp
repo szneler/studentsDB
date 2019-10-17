@@ -1,5 +1,15 @@
 #include "StudentManager.hpp"
 
+StudentManager::StudentManager()
+{
+
+}
+
+StudentManager::~StudentManager()
+{
+
+}
+
 void StudentManager::addStudent(unsigned int newIndexNo, std::string newFirstName, std::string newLastName)
 {
     Student newStudent(newIndexNo, newFirstName, newLastName);

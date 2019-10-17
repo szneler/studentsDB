@@ -7,13 +7,13 @@ class Student
 {
     public:
 
-    std::string firstName;
-    std::string lastName;
-    unsigned int indexNo;
-    
     Student();
     Student(unsigned int, std::string, std::string);
     ~Student();
+
+    unsigned int indexNo;
+    std::string firstName;
+    std::string lastName;
 };
 
 
