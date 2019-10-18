@@ -22,7 +22,7 @@ void StudentManager::eraseStudentByID(unsigned int studentToErase)
     {
         if (it->indexNo == studentToErase)
         {
-            it = students.erase(it);
+           students.erase(it);
         }
         else
             ++it;
